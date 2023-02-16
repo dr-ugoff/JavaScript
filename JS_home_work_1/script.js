@@ -7,6 +7,6 @@ t = ${temperatureF}°F (по Фаренгейту)`);
 
 // Задание 2
 
-let name = 'Андрей';
-let admin = name;
+let userName = 'Андрей';
+let admin = userName;
 console.log(admin);
