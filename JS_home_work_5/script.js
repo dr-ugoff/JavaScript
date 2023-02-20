@@ -90,7 +90,7 @@ for (const keyComments in post.comments[1]) {
 // ЗАДАНИЕ 3
 // Дан массив products, необходимо уменьшить price на 15%.
 
-const products = [
+const productsArr = [
     {
         id: 3,
         price: 200,
@@ -106,16 +106,16 @@ const products = [
 ];
 
 // Вариант 1
-for (let i = 0; i < products.length; i++) {
-    products[i].price *= 0.85;
+for (let i = 0; i < productsArr.length; i++) {
+    productsArr[i].price *= 0.85;
 }
-console.log(products);
+console.log(productsArr);
 
 // Вариант2 
-products.forEach(item => {
+productsArr.forEach(item => {
     item.price *= 0.85;
 });
-console.log(products);
+console.log(productsArr);
 
 
 
