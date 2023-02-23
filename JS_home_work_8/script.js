@@ -25,7 +25,7 @@ window.addEventListener('load', function (e) {
 document.addEventListener('click', function (e) {
     let element = e.target;
     let hasClass = element.classList.contains('super_element');
-    if (hasClass == true) {
+    if (hasClass) {
         console.log(`Класс "super_element" присутствует в элементе "${element.tagName.toLowerCase()}".`);
     }
     else {
