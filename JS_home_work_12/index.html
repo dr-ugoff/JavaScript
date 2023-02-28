@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Homework 11</title>
+</head>
+
+<body>
+    <div class="header center">
+        <div class="logo">
+            <a href="#"><img src="img/logo.png" alt="logo"></a>
+            <a class="search__btn" href="#"><img class="btn" src="img/search.svg" alt="search icon"></a>
+        </div>
+        <div class="header__menu">
+            <a class="menu__icon burger__icon" href="#"><img src="img/burger.svg" alt="burger icon"></a>
+            <div class="burger">
+                <h2 class="burger__title">MENU</h2>
+                <div class="burger__content">
+                    <h3 class="burger__subtitle">MAN</h3>
+                    <ul>
+                        <li class="burger__list"><a href="#" class="burger__link">Accessories</a></li>
+                        <li class="burger__list"><a href="#" class="burger__link">Bags</a></li>
+                        <li class="burger__list"><a href="#" class="burger__link">Denim</a></li>
+                        <li class="burger__list"><a href="#" class="burger__link">T-Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="burger__content">
+                    <h3 class="burger__subtitle">WOMAN</h3>
+                    <ul>
+                        <li class="burger__list"><a href="#" class="burgeru__link">Accessories</a></li>
+                        <li class="burger__list"><a href="#" class="burger__link">Jackets & Coats</a></li>
+                        <li class="burger__list"><a href="#" class="burger__link">Polos</a></li>
+                        <li class="burger__list"><a href="#" class="burger__link">T-Shirts</a></li>
+                        <li class="burger__list"><a href="#" class="burger__link">Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="burger__content">
+                    <h3 class="burger__subtitle">KIDS</h3>
+                    <ul>
+                        <li class="burger__list"><a href="#" class="burger__link">Accessories</a></li>
+                        <li class="burger__list"><a href="#" class="burger__link">Jackets & Coats</a></li>
+                        <li class="burger__list"><a href="#" class="burger__link">Polos</a></li>
+                        <li class="burger__list"><a href="#" class="burger__link">T-Shirts</a></li>
+                        <li class="burger__list"><a href="#" class="burger__link">Shirts</a></li>
+                        <li class="burger__list"><a href="#" class="burger__link">Bags</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a class="menu__icon self1" href="#"><img src="img/user.svg" alt="user"></a>
+            <a class="menu__icon self2 cart__icon" data-count="0" href="#"><img class="menu__cart" src="img/cart.svg"
+                    alt="cart"></a>
+
+            <div class="basket hidden">
+                <div class="basket__items basketHeader">
+                    <div>Наименование</div>
+                    <div>Количество</div>
+                    <div>Цена</div>
+                    <div>Сумма</div>
+                    <div></div>
+                </div>
+                <div class="basketList"></div>
+                <div class="basketTotal">
+                    Итого: $
+                    <span class="basketTotalValue">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="top">
+        <div class="top__content center">
+            <div class="top__img"></div>
+            <div class="top__text">
+                <img class="top__image_plank" src="img/plank.svg" alt="element">
+                <p>
+                    <span class="top__text__big">THE BRAND</span><br>
+                    <span class="top__text__small">OF LUXERIOUS <span class="pink__font">FASHION</span>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="catalog center">
+        <div class="catalog__card">
+            <img class="catalog_img" src="img/for_women.jpg" alt="catalog for women">
+            <div class="catalog__background__img"></div>
+            <div class="catalog__caption">
+                <span class="catalog__offer">30% OFF</span><br>
+                <span class="catalog__title">FOR WOMEN</span>
+            </div>
+        </div>
+        <div class="catalog__card">
+            <img class="catalog_img" src="img/for_men.jpg" alt="catalog for men">
+            <div class="catalog__background__img"></div>
+            <div class="catalog__caption">
+                <span class="catalog__offer">HOT DEAL</span><br>
+                <span class="catalog__title">FOR MEN</span>
+            </div>
+        </div>
+        <div class="catalog__card">
+            <img class="catalog_img" src="img/for_kids.jpg" alt="catalog for kids">
+            <div class="catalog__background__img"></div>
+            <div class="catalog__caption">
+                <span class="catalog__offer">NEW ARRIVALS</span><br>
+                <span class="catalog__title">FOR KIDS</span>
+            </div>
+        </div>
+        <div class="catalog__card accesories">
+            <img class="catalog_image" src="img/accesories.jpg" alt="catalog accesories">
+            <img class="catalog_image_mobile" src="img/accesories_mobile.jpg" alt="catalog accesories">
+            <div class="catalog__background__image"></div>
+            <div class="catalog__caption">
+                <span class="catalog__offer">LUXIROUS & TRENDY</span><br>
+                <span class="catalog__title">ACCESORIES</span>
+            </div>
+        </div>
+    </div>
+    <div class="products center">
+        <div class="products__item_fist">
+            <h2 class="products__caption">Fetured Items</h2>
+            <p class="products__subtitle">Shop for items based on what we featured in this week</p>
+        </div>
+        <div class="products__box"></div>
+        <div class="products__item_last">
+            <a class="products_button" href="#">Browse All Product</a>
+        </div>
+    </div>
+    <div class="feature center">
+        <div class="feature__item">
+            <div class="feature__item__content">
+                <img src="img/delivery.svg" alt="Доставка">
+                <h2 class="feature__caption">Free Delivery</h2>
+                <p class="feature__subtitle">Worldwide delivery on all. Authorit tively morph <br>next-generation
+                    innovtion
+                    with extensive models.</p>
+            </div>
+        </div>
+        <div class="feature__item">
+            <div class="feature__item__content">
+                <img src="img/sales.svg" alt="Скидки и распродажи">
+                <h2 class="feature__caption">Sales & discounts</h2>
+                <p class="feature__subtitle">Worldwide delivery on all. Authorit tively morph <br>next-generation
+                    innovtion
+                    with extensive models.</p>
+            </div>
+        </div>
+        <div class="feature__item">
+            <div class="feature__item__content">
+                <img src="img/quality.svg" alt="Гарантия качества">
+                <h2 class="feature__caption">Quality assurance</h2>
+                <p class="feature__subtitle">Worldwide delivery on all. Authorit tively morph <br>next-generation
+                    innovtion
+                    with extensive models.</p>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe">
+        <div class="subscribe__content">
+            <img class="subscribe__img" src="img/subscribe_photo.png" alt="subscribe background photo">
+            <img class="subscribe__img__tablet" src="img/subscribe_photo_tablet.jpg" alt="subscribe background photo">
+            <img class="subscribe__img__mobile" src="img/subscribe_photo_mobile.jpg" alt="subscribe background photo">
+            <img class="subscribe__fon" src="img/subscribe_fon.png" alt="subscribe fon">
+            <img class="subscribe__fon__tablet" src="img/subscribe_fon_tablet.png" alt="subscribe fon">
+            <img class="subscribe__fon__mobile" src="img/subscribe_fon_mobile.png" alt="subscribe fon">
+            <div class="subscribe__info center">
+                <div class="subscribe__info__item1">
+                    <img src="img/intersect.png" alt="photo women">
+                    <p class="subscribe__info__comment">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                        pulvinar purus condimentum“</p>
+                </div>
+                <div class="subscribe__info__item2">
+                    <p class="subscribe__info__text">
+                        <span class="subscribe__info__text__big">SUBSCRIBE<br></span>
+                        <span class="subscribe__info__text__small">FOR OUR NEWLETTER AND PROMOTION</span>
+                    </p>
+                    <div class="subscribe__button__container">
+                        <input class="subscribe__email" type="email" placeholder="Enter Your Email">
+                        <button class="subscribe__btn" type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__content center">
+            <div class="footer__copyright">© 2022 Brand All Rights Reserved.</div>
+            <div class="footer__social">
+                <div class="icon social__facebook">
+                    <img src="img/facebook.svg" alt="facebook icon">
+                </div>
+                <div class="icon social__instagram">
+                    <img src="img/instagram.svg" alt="instagram icon">
+                </div>
+                <div class="icon social__pinterest">
+                    <img src="img/pinterest.svg" alt="pinterest icon">
+                </div>
+                <div class="icon social__twitter">
+                    <img src="img/twitter.svg" alt="twitter icon">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <script src="basket.js"></script>
+</body>
+
+</html>

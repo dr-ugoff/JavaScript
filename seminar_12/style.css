@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.video-box {
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.current__time {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.controls {
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 32px;
+    display: flex;flex-direction: row;
+    gap: 32px;
+}
+
+.fa {
+    cursor: pointer;
+}
